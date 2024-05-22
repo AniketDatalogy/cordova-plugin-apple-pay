@@ -1,0 +1,17 @@
+{
+    "name": "cordova-plugin-apple-pay",
+    "version": "1.0.0",
+    "description": "Cordova Plugin for Apple Pay integration",
+    "license": "MIT",
+    "keywords": [
+        "cordova",
+        "apple",
+        "pay"
+    ],
+    "cordova": {
+        "id": "cordova-plugin-apple-pay",
+        "platforms": [
+            "ios"
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-apple-pay"
+        version="1.0.0">
+    <name>ApplePayPlugin</name>
+    <description>Cordova Plugin for Apple Pay integration</description>
+    <license>MIT</license>
+    <keywords>cordova,apple,pay</keywords>
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    <platform name="ios">
+        <source-file src="src/ios/ApplePayPlugin.swift" />
+        <header-file src="src/ios/ApplePayPlugin-Bridging-Header.h" />
+    </platform>
+    <js-module src="www/ApplePayPlugin.js" name="ApplePayPlugin">
+        <clobbers target="cordova.plugins.ApplePayPlugin" />
+    </js-module>
+
+
+</plugin>
