@@ -16,6 +16,4 @@
     <js-module src="www/ApplePayPlugin.js" name="ApplePayPlugin">
         <clobbers target="cordova.plugins.ApplePayPlugin" />
     </js-module>
-
-
 </plugin>
